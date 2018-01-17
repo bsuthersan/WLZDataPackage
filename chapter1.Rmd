@@ -1,0 +1,15 @@
+---
+title: "Chapter 1"
+output: html_notebook
+---
+
+
+```{r, echo=FALSE}
+mydata <- read.cs
+```
+
+###1.1
+
+In 2016-17, West London Zone worked with 132 students. Of these students:
+
+- `r length(which(mydata$Anchor=="Phoeix"))` were 
